@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact form</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        Contact formulier Bibi
+    </head>
+    <body>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Naam: <input type="text" name="name" /></label>   
+            </p>
+            <p>
+              <label>Email adres: <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <label>Telefoonnummer: <input type="tel" name="Telefoonnummer" /></label>
+            </p>
+            <p>
+              <label>Leeftijd: <input type="number" name="Leeftijd" /></label>
+            </p>
+            <p>
+              <label>Geboortedatum: <input type="date" name="Geboortedatum" /></label>
+            </p>
+            <hr />
+        <div>
+          Gender
+          <div>
+            <label for="male">Man</label>
+            <input type="radio" name="gender" id="man" value="man" />
+          </div>
+          <div>
+            <label for="female">Vrouw</label>
+            <input type="radio" name="gender" id="vrouw" value="vrouw" />
+          </div>
+          <div>
+            <label for="female">Anders</label>
+            <input type="radio" name="gender" id="Anders" value="anders" />
+          </div>
+        </div>
+        <hr />
+            <p>
+              <label>Favoriete Planten: </label>
+              <div>
+                <label for="Calathea">Calathea</label>
+                <input type="checkbox" name="Calathea" id="Calathea" />
+              </div>
+              <div>
+                <label for="Alocasia">Alocasia</label>
+                <input type="checkbox" name="Alocasia" id="Alocasia" />
+              </div>
+              <div>
+                <label for="Photos">Photos</label>
+                <input type="checkbox" name="Photos" id="Photos" />
+              </div>
+              <div>
+                <label for="Vetplant">Vetplant</label>
+                <input type="checkbox" name="Vetplant" id="Vetplant" />
+              </div>
+            </p>
+            <p>
+              <label>Favoriete kleur pot: <input type="color" name="potkleur" /></label>
+            </p>
+            <p>
+              <label>Biografie: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+              <label>Upload je planten routine: <input type="file" name="plantroutine" /></label>
+            </p>
+            <p>
+              <label>URL naar je website: <input type="url" name="websitelink" /></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+              <button type="reset">Reset</button>
+            </p>
+            <h3><a href="index.html">Go back</a></h3>
+          </form>
+    </body>
+</html>
